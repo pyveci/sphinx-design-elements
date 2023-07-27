@@ -73,6 +73,7 @@ get_started
 
 gridtable
 infocard
+linktree
 ```
 
 ```{toctree}
@@ -116,6 +117,13 @@ HTML table based on a grid layout, with ergonomic top-down configuration.
 :link-type: doc
 
 Composite info card container element, to be used as a grid item.
+:::
+
+:::{grid-item-card} {octicon}`workflow` Link tree
+:link: linktree
+:link-type: doc
+
+A programmable toctree component.
 :::
 
 :::{grid-item-card} {octicon}`tag` Special badges
