@@ -4,6 +4,7 @@
 
 - For dropdown elements that should exclusively open when toggled,
   add a `dropdown-group` CSS class
+- Add "link tree" element, using directive `linktree`
 
 ## v0.1.0 - 2023-07-19
 

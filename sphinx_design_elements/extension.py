@@ -11,11 +11,14 @@ from . import compiled as static_module
 from .dropdown_group import setup_dropdown_group
 from .gridtable import setup_gridtable
 from .infocard import setup_infocard
+from .linktree import setup_linktree
 from .tag import setup_tags
 
 
 def setup_extension(app: Sphinx) -> None:
     """Set up the sphinx extension."""
+
+    app.require_sphinx("3.0")
 
     app.connect("builder-inited", update_css_js)
     app.connect("env-updated", update_css_links)
@@ -27,6 +30,7 @@ def setup_extension(app: Sphinx) -> None:
     setup_infocard(app)
     setup_tags(app)
     setup_dropdown_group(app)
+    setup_linktree(app)
 
 
 def update_css_js(app: Sphinx):

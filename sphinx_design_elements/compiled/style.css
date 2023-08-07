@@ -61,3 +61,11 @@
   margin-top: unset;
   margin-bottom: unset;
 }
+
+
+/**
+ * Fix appearance of page-rendered link tree.
+**/
+article .sidebar-tree p.caption {
+  text-align: unset;
+}
