@@ -73,6 +73,7 @@ get_started
 
 gridtable
 infocard
+smartinclude/index
 ```
 
 ```{toctree}
